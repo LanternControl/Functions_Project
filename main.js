@@ -37,8 +37,14 @@ maxOfThree(1,2,3)
 // Then, write and example of using the function.
 
 function isVowel(char){
-    // Your answer here
+    if (char === 1  ) {
+     return true;
+    }
+    else{
+      return false;
+    }
 }
+isVowel(1)
 
 
 // 4.
