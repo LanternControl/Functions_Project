@@ -4,24 +4,32 @@
 
 function max(n1, n2){
     if (n1 > n2) {
-       
+       console.log(n1)
+        
     } else {
-       
+       console.log(n2)
     }
     }
-    
-    console.log(1,2);
-    // Your answer here
-}
+
 
 
 // 2.
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
 // Then, write and example of using the function.
 
-function maxOfThree(){
-    // Your answer here
+function maxOfThree(n1, n2, n3){
+    if (n1 > n2  && n1 > n3) {
+        console.log(n1)
+    }
+    else if (n2 > n1 && n2 > n3){
+        console.log(n2)
+    }
+    else {
+        console.log(n3)
+    }
+    
 }
+maxOfThree(1,2,3)
 
 
 // 3.
