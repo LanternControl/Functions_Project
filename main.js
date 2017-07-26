@@ -10,6 +10,7 @@ function max(n1, n2){
        console.log(n2)
     }
     }
+max(1,2)
 
 
 
@@ -51,7 +52,11 @@ isVowel(1)
 // Write a function called `sum` that takes two parameters and returns the sum of those 2 numbers.
 // Then, write and example of using the function.
 
+function sum(n1, n2){
+    return n1 + n2;
+}
 
+sum(1,2)
 
 // 5.
 // Write a function named `avg` that takes 3 parameters and returns the average of those 3 numbers.
