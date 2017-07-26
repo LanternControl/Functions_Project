@@ -62,6 +62,11 @@ sum(1,2)
 // Write a function named `avg` that takes 3 parameters and returns the average of those 3 numbers.
 // Then, write and example of using the function.
 
+function avg(n1, n2, n3){
+    return (n1 + n2 + n3) / 3;
+}
+
+avg(1,2,3)
 
 
 // 6.
