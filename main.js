@@ -116,3 +116,11 @@ greet('Brett');
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
+
+function madlib(noun, verb, noun2, verb2){
+    console.log('My name is', noun, 'and I like to', verb, 'my dog.',noun2, 'prefers to', verb2, 'her dog.')
+    
+}
+ 
+ madlib('Brett', 'walk', 'Ashley', 'waltz')
+
