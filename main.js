@@ -72,16 +72,28 @@ avg(1,2,3)
 // 6.
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
+function getLength(string){
+    let getLength = String.length;
+}
+getLength(lakjdlfjal);
 
-
-
+    
 // 7.
 // Write a function called `greaterThan` that takes two parameters
 // and returns `true` if the second parameter is greater than the first.
 // Otherwise the function should return `false`.
 // Then, write and example of using the function.
 
+function greaterThan(n1, n2) {
+    if (n2 > n1) {
+        return true;
+}
+    else {
+        return false;
+    }
+}
 
+greaterThan(5,5)
 
 // 8.
 // Write a function called `greet` that takes a
