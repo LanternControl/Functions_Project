@@ -102,7 +102,11 @@ greaterThan(5,5)
 // is the parameter that was passed in.
 // Then, write and example of using the function.
 
+function greet(Name){
+    console.log('Hello', Name)
+}
 
+greet('Brett');
 
 // 9.
 // Write a function called `madlib` that takes 4 or more parameters (words).
