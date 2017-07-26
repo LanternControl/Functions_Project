@@ -73,9 +73,11 @@ avg(1,2,3)
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
 function getLength(string){
-    let getLength = String.length;
+    if (string.length > 0){
+        return string.length;
+    }
 }
-getLength(lakjdlfjal);
+getLength("lasdklfjdas");
 
     
 // 7.
